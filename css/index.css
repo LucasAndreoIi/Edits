@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url('../imgs/punpun/Punpun.png');
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: round;
+    height: 3000px;
+}
+
+#cabecalho{
+    margin: auto;
+    background-color: #0b2a30;
+    background-image: url('../imgs/BackGrounds/Fundo\ Poeira.jpg') ;
+    width: 1200px;
+    padding: 30px;
+    height: 200px;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    border-left: #010607 5px solid;
+    border-right: 5px #010607 solid;
+    border-bottom: 5px #010607 solid;
+}
+
+#redes{
+    text-align: left;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+
+#pesfoto img{
+    background-color: aqua;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+#pesfoto{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#cont{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+}
+
+#cont h2{
+    color: yellow;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+header h2{
+    display: inline-block;
+    color: white;
+    font-size: 30pt;
+    box-sizing: border-box;
+}
+
+.socialmedia{
+    margin-left: 10px;
+}
+
+.socialmedia img{
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#navbar{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#navbar a{
+    color: yellow;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#navbar a:hover{
+    color: white;
+    border-radius: 10px;
+}
+
+main{
+    margin: auto;
+    background-color: #144550;
+    background-image: url('../imgs/BackGrounds/TrianglePunpun.png');
+    width: 1170px;
+    height: 2300px;
+    padding: 30px;
+    border-left: #010607 5px solid;
+    border-right: 5px #010607 solid;
+    border-bottom: 5px #010607 solid;
+    text-align: center;
+}
+
+#welcome{
+    display: inline-block;
+}
+
+#miolo h2{
+    font-size: 40pt;
+    color: yellow;
+    display: inline-block;
+}
+
+#miolo h2:hover{
+    color: white;
+}
+
+#gpun{
+    float: right;
+    width: 62px;
+    height: 62px;
+}
+
+#sobm{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+}
+
+#sobm p{
+    color: yellow;
+    height: 200px;
+    width: 400px;
+    font-size: 20pt;
+    float: left;
+    margin-left: 100px;
+}
+
+#umbrellapunpun{
+    margin-left: 110px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#umbrellapunpun img{
+    width: 400px;
+    height: 200px;
+}
+
+#sobm2{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+
+#sobm2 p{
+    margin-top: 50px;
+    color: yellow;
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+
+.tecnologo{
+    align-content: space-around;
+    width: 100%;
+    height: 100px;
+}
+
+.tec{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 110px;
+}
+
+.tec img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#aikodesenho img{
+    width: 400px;
+    height: 400px;
+}
+
+#aikodesenho{
+    float: left;
+    margin-top: 60px;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+
+}
+
+#aikoexp{
+    margin-left: 120px;
+    text-align: center;
+    margin-top: 60px;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+#aikoexp p{
+    font-size: 40px;
+}
+
+#sobs h2{
+    margin-top: 80px;
+}
+
+#bluebody{
+    background-image: url('../imgs/BackGrounds/bluelock.jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: round;
+}
+
+#miniartes img{
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+#miniartes img:hover{
+    border-radius: 0px;
+    transform: scale(1.8);
+}
+
+#miniartes2 img:hover{
+    border-radius: 0px;
+    transform: scale(1.4);
+}
+
+#bluecont{
+    height: 300px;
+}
+
+#bluelogo{
+    display: block;
+}
+
+#bluefoto{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-left: 430px;
+}
+
+#miniartes2{
+    margin-top: 120px;
+}
+
+
+#miniartes figure{
+    display: inline-block;
+    width: 500px;
+    margin: 40px;
+}
+
+
+#miniartes2 figure{
+    display: inline-block;
+    width: 500px;
+    margin: 40px;
+}
+
+figcaption{
+    margin-top: 20px;
+    color: yellow;
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 200px;
+    font-size: 30px;
+    padding: 80px;
+    padding-top:140px;
+    height: 100px;
+    color: white;
+    display: block;
+    background-color: #010607;
+}
+
+#bluepanel1{
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+#bluepanel2{
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+}
+
+#tokyofoto{
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin-left: 380px;
+}
+
+#miniartes3 figure{
+    display: inline-block;
+    width: 500px;
+    margin: 40px;
+}
+
+#miniartes3 img{
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    transition: transform 0.3s ease;
+}
+
+#miniartes3 img:hover{
+    border-radius: 0px;
+    transform: scale(1.6);
+}
+
+#tokyobody{
+    background-image: url('../imgs/BackGrounds/TokyoBackGround.png');
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: round;
+}
+
+#credits{
+    margin-top: 700px;
+    display:block ;
+    width: 100%;
+}
+
+#credits a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 30pt;
+}
